@@ -9,8 +9,14 @@ https://www.msys2.org/
 ```
 
 ## Install Toolchain
+toolchain for 64bit
 ```
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+```
+
+toolchain for 32bit
+```
+pacman -S --needed base-devel mingw-w64-i686-toolchain
 ```
 
 ## Add to Windows Path
